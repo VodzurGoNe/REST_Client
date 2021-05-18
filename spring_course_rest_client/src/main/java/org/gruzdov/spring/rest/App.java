@@ -21,8 +21,8 @@ public class App {
 //        List<Employee> allEmployees = communication.getAllEmployees();
 //        System.out.println(allEmployees);
 
-//        Employee empBiID = communication.getEmployee(1L);
-//        System.out.println(empBiID);
+        Employee empBiID = communication.getEmployee(16L);
+        System.out.println(empBiID);
 
 
 //        Employee emp = new Employee("Valdemar", "Stukov"
@@ -30,8 +30,7 @@ public class App {
 //        emp.setId(22L);
 //        communication.saveEmployee(emp);
 
-        communication.deleteEmployee(2L);
+//        communication.deleteEmployee(2L);
 
-        System.out.println("hello");
     }
 }

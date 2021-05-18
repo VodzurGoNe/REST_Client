@@ -4,9 +4,7 @@ import lombok.*;
 
 
 @NoArgsConstructor
-@Getter
-@Setter
-@ToString
+@Data
 public class Employee {
     private Long id;
     private String name;

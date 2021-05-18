@@ -13,7 +13,7 @@ import java.util.List;
 @Component
 public class Communication {
     private RestTemplate restTemplate;
-    private final String URL = "http://localhost:8080/spring_course_rest/api/employees";
+    private final String URL = "http://localhost:8080/api/employees";
 
     @Autowired
     public void setRestTemplate(RestTemplate restTemplate) {

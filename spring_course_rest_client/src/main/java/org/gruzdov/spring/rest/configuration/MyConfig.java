@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @Configuration
-@ComponentScan("org.gruzdov.spring.rest")
+@ComponentScan({"org.gruzdov.spring.rest"})
 public class MyConfig {
 
     @Bean
