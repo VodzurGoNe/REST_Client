@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class App {
     public static void main( String[] args ) {
-/*        AnnotationConfigApplicationContext context =
+        AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(MyConfig.class);
 
         Communication communication = context.getBean("communication"
@@ -21,10 +21,17 @@ public class App {
 //        List<Employee> allEmployees = communication.getAllEmployees();
 //        System.out.println(allEmployees);
 
-        Employee empBiID = communication.getEmployee(1L);
-        System.out.println(empBiID);
+//        Employee empBiID = communication.getEmployee(1L);
+//        System.out.println(empBiID);
 
- */
+
+//        Employee emp = new Employee("Valdemar", "Stukov"
+//                , "IT", 100);
+//        emp.setId(22L);
+//        communication.saveEmployee(emp);
+
+        communication.deleteEmployee(2L);
+
         System.out.println("hello");
     }
 }

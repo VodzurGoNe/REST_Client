@@ -47,11 +47,12 @@ public class Communication {
             System.out.println(responseEntity.getBody());
         } else {
             restTemplate.put(URL, employee);
-            System.out.println("Employee width ID " + id + " was updated");
+            System.out.println("Employee with ID " + id + " was updated");
         }
     }
 
     public void deleteEmployee(Long id) {
-
+        restTemplate.delete(URL + "/" + id);
+        System.out.println("Employee with ID " + id + " was deleted from DB");
     }
 }
