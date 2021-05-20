@@ -16,7 +16,7 @@ public class Communication {
     private final String URL = "http://localhost:8080/api/employees";
 
     @Autowired
-    public void setRestTemplate(RestTemplate restTemplate) {
+    public Communication(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
 
